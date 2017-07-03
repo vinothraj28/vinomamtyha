@@ -14,7 +14,6 @@ public class Bob {
 		for( i=1;i<100;i++){
 			if(value>0){
 				a[i]=value;
-				//System.out.println(+value);
 				value--;
 			}else if(value==0){
 				value=temp*2;
