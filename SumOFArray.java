@@ -13,8 +13,8 @@ public class SumOFArray {
 			a[i]=s.nextInt();
 		}
 		for(int i=0;i<n;i++){
-			for( int j=0;j<n;j++){
-				for(int k=0;k<n;k++){
+			for( int j=i+1;j<n-1;j++){
+				for(int k=j+1;k<n-2;k++){
 					if(a[i]+a[j]==a[k]){
 						System.out.println(a[i]+"+"+a[j]+"+="+a[k]);
 					}
