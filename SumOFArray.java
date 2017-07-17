@@ -6,8 +6,9 @@ public class SumOFArray {
 	public static void main(String[] args){
 		int n;
 		Scanner s=new Scanner(System.in);
-		System.out.println("Enter the integers :");
+		System.out.println("Enter the size of array :");
 		n=s.nextInt();
+		System.out.println("Enter the integers :");
 		int[] a=new int[n];
 		for(int i=0;i<n;i++){
 			a[i]=s.nextInt();
